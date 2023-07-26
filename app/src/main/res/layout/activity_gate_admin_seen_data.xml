@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GateAdminSeenData"
+    android:orientation="vertical"
+    android:background="@drawable/ladingsection">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="0dp"
+        android:textAlignment="center"
+        app:title="GATE PASS"
+        app:titleMarginStart="90dp"
+        app:titleTextColor="@color/colorPrimaryDark"
+        android:background="@drawable/toolbarbg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <TableLayout
+        android:background="#BFC0C5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:stretchColumns="1,2,3,">
+
+        <TableRow>
+            <TextView
+                android:layout_width="35dp"
+                android:text="Time/Date"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_column="1"
+                android:padding="10dp"/>
+            <TextView
+                android:id="@+id/ggg"
+                android:layout_width="35dp"
+                android:text="Grant By"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_column="2"
+                android:padding="10dp"/>
+            <TextView
+                android:text="Application"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_column="2"
+                android:padding="10dp"/>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recycle_view"/>
+    </LinearLayout>
+
+
+</LinearLayout>

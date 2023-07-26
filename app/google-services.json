@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "143809370014",
+    "project_id": "mbit-connect",
+    "storage_bucket": "mbit-connect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143809370014:android:eab5d65e4cc9cbf6a6288f",
+        "android_client_info": {
+          "package_name": "com.example.mbitconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143809370014-3e5vnr3mf3col63lv5kcoujnfu3g2phr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3fp9Y7ZVJB_5icNcYNHrslRbvTlSZ0a4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143809370014-3e5vnr3mf3col63lv5kcoujnfu3g2phr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

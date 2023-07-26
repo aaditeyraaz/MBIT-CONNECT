@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ladingsection"
+    tools:context=".Devloper">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/toolbarbg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/original_surfer"
+        android:text="DEVELOPER"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintStart_toStartOf="@+id/toolbar2"
+        app:layout_constraintTop_toTopOf="@+id/toolbar2" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Rahul"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/rahulimage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/rahul"
+                app:civ_border_color="#000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/rahulname"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/rahulname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:text="RAHUL KUMAR"
+                android:textColor="#0329FD"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.622"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/rlinkedln"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginBottom="18dp"
+                android:background="@color/white"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/rfacebook"
+                app:layout_constraintStart_toEndOf="@+id/rahulimage"
+                app:layout_constraintTop_toBottomOf="@+id/rahulname"
+                app:srcCompat="@drawable/linkedin" />
+
+            <ImageButton
+                android:id="@+id/rfacebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="18dp"
+                android:background="@color/white"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/rinsta"
+                app:layout_constraintStart_toEndOf="@+id/rlinkedln"
+                app:layout_constraintTop_toBottomOf="@+id/rahulname"
+                app:srcCompat="@drawable/facebook" />
+
+            <ImageButton
+                android:id="@+id/rinsta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginBottom="18dp"
+                android:background="@color/white"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/rweb"
+                app:layout_constraintStart_toEndOf="@+id/rfacebook"
+                app:layout_constraintTop_toBottomOf="@+id/rahulname"
+                app:srcCompat="@drawable/instagram" />
+
+            <ImageButton
+                android:id="@+id/rweb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginBottom="18dp"
+                android:background="@color/white"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/rgamil"
+                app:layout_constraintStart_toEndOf="@+id/rinsta"
+                app:layout_constraintTop_toBottomOf="@+id/rahulname"
+                app:srcCompat="@drawable/web" />
+
+            <ImageButton
+                android:id="@+id/rgamil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="18dp"
+                android:background="@color/white"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/rweb"
+                app:layout_constraintTop_toBottomOf="@+id/rahulname"
+                app:srcCompat="@drawable/email" />
+
+            <ImageButton
+                android:id="@+id/rabout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="28dp"
+                android:clickable="true"
+                android:background="@color/white"
+                app:layout_constraintStart_toEndOf="@+id/rahulname"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/right_arrow" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/abhishek"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Rahul">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/abhiimage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/abhishek"
+                app:civ_border_color="#000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/abhiname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:text="ABHISHEK KUMAR"
+                android:textColor="#0329FD"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.622"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/alinkedln"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginBottom="18dp"
+                android:background="@color/white"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/afacebook"
+                app:layout_constraintStart_toEndOf="@+id/abhiimage"
+                app:layout_constraintTop_toBottomOf="@+id/abhiname"
+                app:srcCompat="@drawable/linkedin" />
+
+            <ImageButton
+                android:id="@+id/afacebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="18dp"
+                android:background="@color/white"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/ainsta"
+                app:layout_constraintStart_toEndOf="@+id/alinkedln"
+                app:layout_constraintTop_toBottomOf="@+id/abhiname"
+                app:srcCompat="@drawable/facebook" />
+
+            <ImageButton
+                android:id="@+id/ainsta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginBottom="18dp"
+                android:background="@color/white"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/aweb"
+                app:layout_constraintStart_toEndOf="@+id/afacebook"
+                app:layout_constraintTop_toBottomOf="@+id/abhiname"
+                app:srcCompat="@drawable/instagram" />
+
+            <ImageButton
+                android:id="@+id/aweb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginBottom="18dp"
+                android:background="@color/white"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/agamil"
+                app:layout_constraintStart_toEndOf="@+id/ainsta"
+                app:layout_constraintTop_toBottomOf="@+id/abhiname"
+                app:srcCompat="@drawable/web" />
+
+
+            <ImageButton
+                android:id="@+id/agamil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="18dp"
+                android:background="@color/white"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/aweb"
+                app:layout_constraintTop_toBottomOf="@+id/abhiname"
+                app:srcCompat="@drawable/email" />
+
+
+            <ImageButton
+                android:id="@+id/aabout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="28dp"
+                android:clickable="true"
+                android:background="@color/white"
+                app:layout_constraintStart_toEndOf="@+id/abhiname"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/right_arrow" />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

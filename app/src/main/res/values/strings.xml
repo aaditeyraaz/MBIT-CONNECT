@@ -1,0 +1,215 @@
+<resources>
+    <string name="app_name">MBIT CONNECT</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+    <string name="about_Rahul">
+        <br><b>-> I am from saran district in Bihar.</b>\n</br>
+        <br><b>-> I am Pursuing B.tech from Moti babu institute of technology which isaffiliated by AKU Patna.</b>\n</br>
+    </string>
+    <string name="Rahul_designation">
+        <br><b>Android App Developer , Java Developer and UI/UX (Front End and Back End) Designer.</b>\n</br>
+    </string>
+    <string name="Rahul_Internship">
+        <br><b>I have completed three month Internship from Arnic Soft Technology as a Android App Developer.</b>\n</br>
+    </string>
+
+
+    <string name="cse_first">
+        <br><b><u>L:3 T:1 P:3 Credit 5.5\n</u></b>\n</br>
+
+
+
+
+
+        <br><u>Module-1 Atomic and Molecular Structure(10 Lectures)\n\n</u></br>
+
+
+<br>Atomic structure and its properties at atomic and sub-atomic level, Failure of classical theories to explain properties of particles, Molecular orbitals of diatomic molecules and graphs of multicentre orbitals, Principal for combination of atomic orbita;s to form molecular orbitals, Schodinger equation, Photoelectric effect and Heisenberg uncertainty principle, Dual nature of electromagnetic radiation, Planks theory, Band structure, Electromagnetic radiation, Crystal field theory and the energy level diagram for transition metals ions and their magnetic properties.\n\n</br>
+
+        <br><u>Module-2 Spectroscopic Technique and its Applications (8 Lectures)\n\n</u></br>
+
+        <br>Principal of vibrational and rotational spectroscopy and selection rules for application in diatomic molecules, Elementary idea for elecctronic spectroscopy. UV-VIS Spectroscopy with related rules and its applications. Fluorescence and its application in medicines. Basic principle of Nuclear magnetic resonance and its applications. Basics of magnetic resonance imaging.\n\n</br>
+
+        <br><u>Module-3 Intermolecular forces and properties of Gases (4 Lectures)\n\n</u></br>
+
+<br>Ionic, Dipolar and Vanderwalls interactions. Equations of stste of ideal and real gases, Deviation from ideal behaviour. Vanderwalls Gas Equation.
+\n\n</br>
+
+        <br><u>Module-4 Use of free energy in chemical equilibriya and water chemistry (8 Lecture)\n\n</u></br>
+
+
+<br>Thermodynamics functions: Energy, Enthalpy,Free energy. Equation to interrelate thermodynamics properties. Free Energy, EMF, and Cell potentials, The Nearst equation and its applications, Corrosion, Use of free energy considerations in metallurgy through ellingham diagrams. Solubility equilibria. Water chemistry hard and soft water, Parameretrs of quality of water to be used in different industries as for drinking water. Calculations of hardness of water in all units. Estimation of hardness using EDTA and Alkalinity methode. Removal of hardness by Sodalime and ion exchange methode including Zeolite Methode.
+\n\n</br>
+
+
+<br><u>Module-5 Periodic properties (4 Lectures)\n\n</u></br>
+
+<br>Effective Nuclear charge, Penetration of orbitals, Vibrations of s,p,d,and f orbitals energies of atom in the periodic table. Electronic configuration, Atomic and ionic size, Ionization energies,Polarisation,Acid,Base,Principal of HSAB theory, Oxidation states, Hybridisation and Moecular geometry.
+\n\n</br>
+
+
+<br><u>Module-6 Stereochemistry (4 Lectures)\n\n</u></br>
+
+
+<br>Representation of 3-D structures, Structural Isomersand stereoisomers, Diastereomers,Optical activity, Configuration and symmetry and chirality,enantiomers,Absolute configurations and confirmational analysis.
+\n\n</br>
+
+
+<br><u>Module-7 Organic reactions and synthesis of drugs moleculed (4 lectures)\n\n</u></br>
+
+<br>Introduction to intermediates and reaction involving substitution, Addition, Elimination, Oxidation-Reductions. Diels Elders cuclization and epoxide ring opening reactiion. Synthesis of a commonly used drug molecules like Aspirin.
+\n\n</br>
+
+        <br><u>Practicals:\n\</u>\n</br>
+<br>Choose any 10-12 experiments from below\n\n</br>
+<br>1. Determination of surface tension and viscosity.\n\n</br>
+<br>2. Thin layer chromatography.\n</br>
+<br>3. Ion Exchange column for removal of hardness of water.\n\n</br>
+<br>4. Determination of chloride component of water.\n\n</br>
+<br>5. Colligative properties using freezing point depression.\n\n</br>
+<br>6. Determination of rate constant of reaction.\n\n</br>
+<br>7. Determination of cell constant and conductance of solution.\n\n</br>
+<br>8. Potentiomerty-Determination of redox potential and Emfs.\n\n</br>
+<br>9. synthesis of a polymer/drug.\n\n</br>
+<br>10. Saponication/ acid value of oil.\n\n</br>
+<br>10. Chemical analysis of a salt.\n\n</br>
+<br>11. Lattice structure and packing of spheres.\n\n</br>
+<br>12. Model of potential Energy surface.\n\n</br>
+<br>13. Chemical oscillations-Iodine clock reaction.\n\n</br>
+<br>14. Adsorption of acetic acid by charcoal.\n\n</br>
+<br>15. Use of capillary viscisimeter to the demonstrate of the iso electric point as the PH of minimum viscosity\n\n</br>
+    </string>
+
+
+    <!--Month string-->
+    <string name="janur">
+        <br><b>1 Jan  > New Year Day</b>\n\n</br>
+        <br><b>14 Jan > Makar Sankranti</b>\n\n</br>
+        <br><b>15 Jan > Pongal</b>\n\n</br>
+        <br><b>26 Jan > Republic Day</b>\n\n</br>
+        <br><b>26 Jan > Vasant Panchami</b>\n\n</br>
+    </string>
+
+    <string name="febu">
+        <br><b>5 Fab > Guru Ravidas Jayanti</b>\n\n</br>
+        <br><b>5 Feb > Hazarat Ali Birthday</b>\n\n</br>
+        <br><b>15 Feb > Maharishi Dayanand Jayanti</b>\n\n</br>
+        <br><b>18 Feb > Maha Shivaratri</b>\n\n</br>
+        <br><b>19 Feb > Shivaji Jayanti</b>\n\n</br>
+    </string>
+
+    <string name="march">
+        <br><b>7 Mar > Dolyatra</b>\n\n</br>
+        <br><b>7 Mar > Holika Dahana</b>\n\n</br>
+        <br><b>8 Mar > Holi</b>\n\n</br>
+        <br><b>22 Mar > Chaitra Sukhladi</b>\n\n</br>
+        <br><b>22 Mar > Gudi Padwa</b>\n\n</br>
+        <br><b>22 Mar > Ugadi</b>\n\n</br>
+        <br><b>30 Mar > Rama Navami</b>\n\n</br>
+    </string>
+
+
+    <string name="Apr">
+        <br><b>4 Apr > Mahavir Jayanti</b>\n\n</br>
+        <br><b>7 Apr > Good Friday</b>\n\n</br>
+        <br><b>9 Apr > Easter Day</b>\n\n</br>
+        <br><b>14 Apr > Vaisakhi</b>\n\n</br>
+        <br><b>14 Apr > Ambedkar Jayanti</b>\n\n</br>
+        <br><b>15 Apr > Mesadi/Vaisakhadi</b>\n\n</br>
+        <br><b>21 Apr > Jamat Ul-Vida</b>\n\n</br>
+        <br><b>22 Apr > Ramzan Id/Eid-ul-Fitar</b>\n\n</br>
+    </string>
+
+
+    <string name="may">
+        <br><b>5 May > Buddha Purnima</b>\n\n</br>
+        <br><b>9 May > Birthday of Ravindranath</b>\n\n</br>
+    </string>
+
+    <string name="jun">
+        <br><b>20 Jun > Rath Yatra</b>\n\n</br>
+        <br><b>29 Jun > Bakrid/Eid ul-Adha</b>\n\n</br>
+    </string>
+
+    <string name="jul">
+        <br><b>29 Jul > Muharram/Ashura</b>\n\n</br>
+    </string>
+
+
+    <string name="aug">
+        <br><b>15 Aug > Independence Day</b>\n\n</br>
+        <br><b>16 Aug > Parsi New Year</b>\n\n</br>
+        <br><b>20 Aug > Vinayaka Chathurthi</b>\n\n</br>
+        <br><b>29 Aug > Onam</b>\n\n</br>
+        <br><b>30 Aug > Raksha Bandhan(Rakhi)</b>\n\n</br>
+    </string>
+
+    <string name="sep">
+        <br><b>6 Sep > Janmashtami(Smarta)</b>\n\n</br>
+        <br><b>7 Sep > Janmashtami</b>\n\n</br>
+        <br><b>19 Sep > Ganesh Chaturthi</b>\n\n</br>
+        <br><b>28 Sep > Milad un-Nabi/id-e-Milad</b>\n\n</br>
+    </string>
+
+
+    <string name="oct">
+        <br><b>2 Oct > Mahatma Gandhi Jayanti</b>\n\n</br>
+        <br><b>15 Oct > First Day of Sharad Navratri</b>\n\n</br>
+        <br><b>20 Oct > First Day Of Durga Puja</b>\n\n</br>
+        <br><b>21 Oct > Maha Saptami</b>\n\n</br>
+        <br><b>22 Oct > Maha Ashtami</b>\n\n</br>
+        <br><b>23 Oct > Maha Navami</b>\n\n</br>
+        <br><b>24 Oct > Dussehra</b>\n\n</br>
+        <br><b>28 Oct > Maharishi Valmiki Jayanti</b>\n\n</br>
+    </string>
+
+
+    <string name="nove">
+      <br><b>1 Nov > Karva Chauth</b>\n\n</br>
+        <br><b>12 Nov > Diwali(Deepavali)</b>\n\n</br>
+        <br><b>12 Nov > Naraka Chaturdasi</b>\n\n</br>
+        <br><b>13 Nov > Govardhan Puja</b>\n\n</br>
+        <br><b>15 Nov > Bhai Duj</b>\n\n</br>
+        <br><b>19 Nov > Chhat Puja</b>\n\n</br>
+        <br><b>24 Nov > Guru Tegh Bahadur Martydom Day</b>\n\n</br>
+        <br><b>27 Nov > Guru Nanak Jayanti</b>\n\n</br>
+    </string>
+
+    <string name="dece">
+       <br><b>25 Dec > Christmas Day</b>\n\n</br>
+    </string>
+
+
+    <string name="aboutapp">
+        <br>All the chapters and topic name mentioned accordingly. it provides all information related to the syllabus for all
+        branches and all semester.it is very ease so thst anyone can download and use it whenever it required. This app very useful for it at
+        anytime,anywhere, for All students and faculty,access free of cost</br>
+    </string>
+    <string name="features">
+        <br><b>1.User Friendly And Anyone Can Access Student and Faculties</b>\n\n</br>
+        <br><b>2.Collage Website</b>\n\n</br>
+        <br><b>3.Gate Pass</b>\n\n</br>
+        <br><b>4.BEU Syllabus</b>\n\n</br>
+        <br><b>5.E-Book(Upload and Read Pdf)</b>\n\n</br>
+        <br><b>6.Previous year question</b>\n\n</br>
+        <br><b>7.Faculties details</b>\n\n</br>
+        <br><b>8.NPTEL Course</b>\n\n</br>
+        <br><b>9.Engineering Formula</b>\n\n</br>
+        <br><b>10.Holiday</b>\n\n</br>
+        <br><b>11.Calender</b>\n\n</br>
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
